@@ -217,6 +217,20 @@
             font-size: 0.9rem;
         }
 
+        footer .privacy-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        footer .privacy-link:hover {
+            color: var(--color-primary);
+            text-decoration: underline;
+        }
+
         /* Responsive */
         @media (max-width: 640px) {
             h1 {
@@ -333,6 +347,7 @@
         <!-- Footer -->
         <footer>
             <p>Trackit 2025</p>
+            <a href="privacypolicy.html" class="privacy-link">Privacy Policy</a>
         </footer>
     </div>
 </body>
